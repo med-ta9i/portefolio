@@ -2,69 +2,452 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M'hamed Taki | Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylepf.css">
-    <title>M'hamed Taki</title>
 </head>
 <body>
-    <div class="hero-header">
-        <div class="wrapper">
-            <header>
-                <div class="logo">
-                    <i class="fa-solid fa-a"></i>
-                    <div class="logo-text">M'hamed Taki</div>
+<!-- Hero Section -->
+<div class="hero-header" id="home">
+    <div class="wrapper">
+        <header>
+            <div class="logo">
+                <div class="logo-icon">MT</div>
+                <div class="logo-text">M'hamed Taki</div>
+            </div>
+            <nav>
+                <div class="togglebtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
-                <nav>
-                    <div class="togglebtn">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                    <ul class="navlinks">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Resume</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <div class="container">
-                <div class="hero-pic">
-                    <img id="profil" src="profil.jpg" alt="profile pic">
+                <ul class="navlinks">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="hero-pic">
+                <img id="profile" src="profil.jpg" alt="M'hamed Taki profile">
+            </div>
+            <div class="hero-text">
+                <h5>Hello, I'm <span class="accent-text">M'hamed Taki</span></h5>
+                <h1>Data Engineer</h1>
+                <h5>Specializing in <span class="typed-text"></span></h5>
+                <p>
+                    Passionate about transforming raw data into valuable insights and building robust data pipelines.
+                    I combine technical expertise with creative problem-solving to deliver impactful data solutions.
+                </p>
+                <div class="btn-group">
+                    <a class="btn active" href="Anti_CV.pdf" target="_blank">Download CV</a>
+                    <a class="btn" href="#contact">Get In Touch</a>
                 </div>
-                <div class="hero-text">
-                    <h5 class="hadra">Hi, I'm <span class=""> </span></h5>
-                    <h1 class="hadra">M'hamed Taki</h1>
-                    <h5 class="hadra">I'm a <span class="input"> Data Engineering </span></h5>
-                    <p class="hadra">
-                        berroujola 5assna n9raw 3la ro7na
-                    </p>
-                    <div class="btn-group">
-                        <a class="btn" href="Anti_CV.pdf"> CV</a>
-                        <a class="btn" href="#">Contact</a>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/m-hamed-taki-b6264a228/" target="_blank" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/med-ta9i" target="_blank" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.instagram.com/med_taki_03/" target="_blank" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://x.com/SimoTak63514101" target="_blank" aria-label="Twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/med.taki.7923/" target="_blank" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- About Section -->
+<section id="about" class="about-section">
+    <div class="wrapper">
+        <div class="section-title">
+            <h2>About Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    I am a skilled <strong>Data Engineer</strong> with expertise in designing and implementing data solutions that drive business value. With a strong foundation in both data engineering and front-end development, I bring a unique perspective to data projects.
+                </p>
+                <p>
+                    My passion lies in creating efficient data pipelines, optimizing database performance, and developing intuitive data visualizations that tell compelling stories. I thrive in collaborative environments and enjoy tackling complex data challenges.
+                </p>
+                <div class="personal-info">
+                    <div class="info-item">
+                        <span class="info-title">Email:</span>
+                        <span class="info-detail">taki.mhamed.taki@gmail.com</span>
                     </div>
-                    <div class="social">
-                        <a href="https://www.linkedin.com/in/m-hamed-taki-b6264a228/">
-                            <i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/med-ta9i">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                        <a href="https://www.instagram.com/med_taki_03//">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                        <a href="https://x.com/SimoTak63514101">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                        <a href="https://www.facebook.com/med.taki.7923/">
-                            <i class="fa-brands fa-facebook"></i>
-                        </a>
+                    <div class="info-item">
+                        <span class="info-title">Location:</span>
+                        <span class="info-detail">Morocco</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-title">Education:</span>
+                        <span class="info-detail">Ecole Nationale des Sciences Appliquées </span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-title">Languages:</span>
+                        <span class="info-detail">French, English, Arabic ,Spanish(Beginner)</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section">
+    <div class="wrapper">
+        <div class="section-title">
+            <h2>My Skills</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="skills-content">
+            <div class="skill-category">
+                <h3>Data Engineering</h3>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-name">SQL</div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Python</div>
+                        <div class="skill-bar">
+                            <div class="skill-level" style="width: 90%"></div>
+                        </div>
+                    </div>
+                    <!--                    <div class="skill-item">-->
+                    <!--                        <div class="skill-name">Spark</div>-->
+                    <!--                        <div class="skill-bar">-->
+                    <!--                            <div class="skill-level" style="width: 85%"></div>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+                    <!--                    <div class="skill-item">-->
+                    <!--                        <div class="skill-name">ETL Pipelines</div>-->
+                    <!--                        <div class="skill-bar">-->
+                    <!--                            <div class="skill-level" style="width: 88%"></div>-->
+                    <!--                        </div>-->
+                </div>
+            </div>
+        </div>
+        <div class="skill-category">
+            <h3>Web Development</h3>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-name">HTML/CSS</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 92%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">JavaScript</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">React</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Responsive Design</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 88%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skill-category">
+            <h3>Data Science</h3>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-name">Data Analysis</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Data Visualization</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Machine Learning</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">Statistical Analysis</div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 82%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<!--<section id="portfolio" class="portfolio-section">-->
+<!--    <div class="wrapper">-->
+<!--        <div class="section-title">-->
+<!--            <h2>My Portfolio</h2>-->
+<!--            <div class="underline"></div>-->
+<!--        </div>-->
+<!--        <div class="portfolio-categories">-->
+<!--            <button class="portfolio-category active" data-filter="all">All</button>-->
+<!--            <button class="portfolio-category" data-filter="data-engineering">Data Engineering</button>-->
+<!--            <button class="portfolio-category" data-filter="data-analysis">Data Analysis</button>-->
+<!--            <button class="portfolio-category" data-filter="web-dev">Web Development</button>-->
+<!--        </div>-->
+<!--        <div class="portfolio-grid">-->
+<!--            <div class="portfolio-item" data-category="data-engineering">-->
+<!--                <div class="portfolio-img">-->
+<!--                    <img src="/api/placeholder/400/300" alt="ETL Pipeline Project">-->
+<!--                </div>-->
+<!--                <div class="portfolio-info">-->
+<!--                    <h3>Data Warehouse ETL Solution</h3>-->
+<!--                    <p>Designed and implemented a robust ETL pipeline for a data warehouse using Spark and Airflow.</p>-->
+<!--                    <div class="portfolio-links">-->
+<!--                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>-->
+<!--                        <a href="#" class="portfolio-github"><i class="fab fa-github"></i></a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="portfolio-item" data-category="data-analysis">-->
+<!--                <div class="portfolio-img">-->
+<!--                    <img src="/api/placeholder/400/300" alt="Sales Analysis Dashboard">-->
+<!--                </div>-->
+<!--                <div class="portfolio-info">-->
+<!--                    <h3>Sales Performance Analytics</h3>-->
+<!--                    <p>Developed interactive dashboards to track and visualize sales performance metrics.</p>-->
+<!--                    <div class="portfolio-links">-->
+<!--                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>-->
+<!--                        <a href="#" class="portfolio-github"><i class="fab fa-github"></i></a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="portfolio-item" data-category="web-dev">-->
+<!--                <div class="portfolio-img">-->
+<!--                    <img src="/api/placeholder/400/300" alt="E-commerce Website">-->
+<!--                </div>-->
+<!--                <div class="portfolio-info">-->
+<!--                    <h3>Responsive E-commerce Platform</h3>-->
+<!--                    <p>Built a fully responsive e-commerce website with modern design principles.</p>-->
+<!--                    <div class="portfolio-links">-->
+<!--                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>-->
+<!--                        <a href="#" class="portfolio-github"><i class="fab fa-github"></i></a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="portfolio-item" data-category="data-engineering">-->
+<!--                <div class="portfolio-img">-->
+<!--                    <img src="/api/placeholder/400/300" alt="Real-time Data Processing">-->
+<!--                </div>-->
+<!--                <div class="portfolio-info">-->
+<!--                    <h3>Real-time Data Processing System</h3>-->
+<!--                    <p>Implemented a real-time data processing system using Kafka and Spark Streaming.</p>-->
+<!--                    <div class="portfolio-links">-->
+<!--                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>-->
+<!--                        <a href="#" class="portfolio-github"><i class="fab fa-github"></i></a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="portfolio-item" data-category="web-dev">-->
+<!--                <div class="portfolio-img">-->
+<!--                    <img src="/api/placeholder/400/300" alt="Personal Blog">-->
+<!--                </div>-->
+<!--                <div class="portfolio-info">-->
+<!--                    <h3>Technical Blog Platform</h3>-->
+<!--                    <p>Designed and developed a technical blog platform with React and Node.js.</p>-->
+<!--                    <div class="portfolio-links">-->
+<!--                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>-->
+<!--                        <a href="#" class="portfolio-github"><i class="fab fa-github"></i></a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="portfolio-item" data-category="data-analysis">-->
+<!--                <div class="portfolio-img">-->
+<!--                    <img src="/api/placeholder/400/300" alt="Predictive Analytics">-->
+<!--                </div>-->
+<!--                <div class="portfolio-info">-->
+<!--                    <h3>Customer Churn Prediction</h3>-->
+<!--                    <p>Developed a machine learning model to predict customer churn with 85% accuracy.</p>-->
+<!--                    <div class="portfolio-links">-->
+<!--                        <a href="#" class="portfolio-link"><i class="fas fa-link"></i></a>-->
+<!--                        <a href="#" class="portfolio-github"><i class="fab fa-github"></i></a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<!-- Resume Section -->
+<section id="resume" class="resume-section">
+    <div class="wrapper">
+        <div class="section-title">
+            <h2>My Resume</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="resume-content">
+            <div class="resume-column">
+                <h3 class="resume-title">Education</h3>
+                <div class="resume-item">
+                    <h4>ENSAH</h4>
+                    <h5>2024 - Now</h5>
+                    <p class="resume-place">Ecole Nationale des Sciences Appliquées Al Hoceima, Morocco</p>
+                    <p>First-year engineering cycle in Data Engineering. <br>
+                        Courses in data analysis, software development, databases, and machine learning.</p>
+                </div>
+                <div class="resume-item">
+                    <h4>CPGE</h4>
+                    <h5>2018 - 2022</h5>
+                    <p class="resume-place">Errazi preparatory classes, El Jadida, Morocco</p>
+                    <p>Intensive two-year program in Mathematics and Physics, preparing for competitive engineering school entrance exams.
+                        <br>Advanced coursework in calculus, linear algebra, probability, and programming with python.
+                    </p>
+                </div>
+            </div>
+            <!--            <div class="resume-column">-->
+            <!--                <h3 class="resume-title">Professional Experience</h3>-->
+            <!--                <div class="resume-item">-->
+            <!--                    <h4>Data Engineer</h4>-->
+            <!--                    <h5>2023 - Present</h5>-->
+            <!--                    <p class="resume-place">Tech Company Inc., Morocco</p>-->
+            <!--                    <ul>-->
+            <!--                        <li>Designed and implemented ETL pipelines for data warehouse solutions</li>-->
+            <!--                        <li>Optimized database performance, reducing query times by 40%</li>-->
+            <!--                        <li>Collaborated with data scientists to implement machine learning models in production</li>-->
+            <!--                    </ul>-->
+            <!--                </div>-->
+            <!--                <div class="resume-item">-->
+            <!--                    <h4>Web Developer</h4>-->
+            <!--                    <h5>2021 - 2023</h5>-->
+            <!--                    <p class="resume-place">Digital Agency Ltd., Morocco</p>-->
+            <!--                    <ul>-->
+            <!--                        <li>Developed responsive websites for various clients using modern frameworks</li>-->
+            <!--                        <li>Implemented database solutions and API integrations</li>-->
+            <!--                        <li>Collaborated with design teams to create intuitive user interfaces</li>-->
+            <!--                    </ul>-->
+            <!--                </div>-->
+        </div>
+    </div>
+    <div class="resume-download">
+        <a href="Anti_CV.pdf" class="btn active" target="_blank">
+            <i class="fas fa-download"></i> Download Full Resume
+        </a>
+    </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+    <div class="wrapper">
+        <div class="section-title">
+            <h2>Contact Me</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <h3>Email</h3>
+                    <p>taki.mhamed.taki@gmail.com</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-phone"></i>
+                    <h3>Phone</h3>
+                    <p>+212618147052</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <h3>Location</h3>
+                    <p>Morocco</p>
+                </div>
+                <div class="contact-card">
+                    <i class="fas fa-globe"></i>
+                    <h3>Website</h3>
+                    <p>www.mhamedtaki.com</p>
+
+                </div>
+            </div>
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="6" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn active">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="wrapper">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="logo-icon">MT</div>
+                <div class="logo-text">M'hamed Taki</div>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/m-hamed-taki-b6264a228/" target="_blank" aria-label="LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/med-ta9i" target="_blank" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/med_taki_03/" target="_blank" aria-label="Instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://x.com/SimoTak63514101" target="_blank" aria-label="Twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.facebook.com/med.taki.7923/" target="_blank" aria-label="Facebook">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 M'hamed Taki. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.10/typed.js"></script>
 <script src="portef.js"></script>
 </body>
